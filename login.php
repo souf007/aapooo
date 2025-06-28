@@ -141,7 +141,7 @@ if(file_exists("installer.php")){
 			<!-- Main -->
 			<div class="lx-main">
 				<div class="lx-left-bg">
-					<div class="lx-login">
+					<div class="lx-login lx-login-bg-effect">
 						<div class="lx-login-content">
 							<center><img src="<?php echo $settings['logo']=="logo.png"?"images/".$settings['logo']:"uploads/".$settings['logo'];?>" /></center>
 							<p>Se connecter</p>
